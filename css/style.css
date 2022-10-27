@@ -263,11 +263,11 @@ body._lock {
   margin: 0 auto 0 auto;
   padding: 27rem 0 14rem 0;
   max-width: 1700px;
-  background: url(images/intro-bg-chel.png) 85% 100% no-repeat, url(images/intro-bg-icons.png) 83% 70% no-repeat, url(images/intro-bg-elipse3.png) 97% 100% no-repeat;
+  background: url(../images/intro-bg-chel.png) 85% 100% no-repeat, url(../images/intro-bg-icons.png) 83% 70% no-repeat, url(../images/intro-bg-elipse3.png) 97% 100% no-repeat;
 }
 @media (max-width: 1200px) {
   .intro {
-    background: url(images/intro-bg-elipse3.png) 97% 100% no-repeat;
+    background: url(../images/intro-bg-elipse3.png) 97% 100% no-repeat;
   }
 }
 @media (max-width: 768px) {
@@ -384,13 +384,13 @@ body._lock {
 
 .about {
   padding: 12rem 0 15rem 0;
-  background: url(images/about-bg.png) 0 0/contain no-repeat;
+  background: url(../images/about-bg.png) 0 0/contain no-repeat;
   max-width: 150rem;
   margin: 0 auto;
 }
 @media (max-width: 1200px) {
   .about {
-    background: url(images/about-bg.png) 50% 40px/cover no-repeat;
+    background: url(../images/about-bg.png) 50% 40px/cover no-repeat;
   }
 }
 @media (max-width: 557px) {
@@ -541,7 +541,7 @@ body._lock {
   		cursor: pointer;
   		z-index: 10;
 
-  		background: url(images/porfolio-arrow-left.svg) 50% 50% no-repeat,
+  		background: url(../images/porfolio-arrow-left.svg) 50% 50% no-repeat,
   		linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
   	}
   	&::before {
@@ -623,7 +623,7 @@ body._lock {
   top: 50%;
   right: 0;
   transform: translate(0, -50%);
-  background: url(images/portfolio-arrow.svg) no-repeat;
+  background: url(../images/portfolio-arrow.svg) no-repeat;
 }
 
 /* Слайдер запущен */
@@ -671,7 +671,7 @@ body._lock {
   border-radius: 50%;
   transform: translate(0, -50%);
   transition: all 0.2s linear;
-  background: url(images/porfolio-arrow-left.svg) 50% 50% no-repeat, linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  background: url(../images/porfolio-arrow-left.svg) 50% 50% no-repeat, linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
 }
 .porfolio__slider .slick-arrow.slick-prev {
   left: -100px;
@@ -822,7 +822,7 @@ body._lock {
   border-radius: 50%;
   transform: translate(0, -50%) rotate(90deg);
   cursor: pointer;
-  background: url(images/porfolio-arrow-left.svg) 50% 50% no-repeat, linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+  background: url(../images/porfolio-arrow-left.svg) 50% 50% no-repeat, linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
 }
 @media (max-width: 992px) {
   .nav__link--arrow {
